@@ -1,0 +1,41 @@
+.gec-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gec-label {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gec-emailbox {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.gec-email-valid {
+  border: 1px solid #2ecc71;
+}
+
+.gec-email-invalid {
+  border: 1px solid #e74c3c;
+}
+
+.gec-emailbox-disabled {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.gec-btn {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.gec-btn:hover {
+  cursor: pointer;
+}
+
+.gec-btn-disabled {
+  opacity: 0.2;
+  pointer-events: none;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"
+    />
+    <title>ps-email-capture test</title>
+
+    <script type="module" src="/build/ps-email-capture.esm.js"></script>
+    <script nomodule src="/build/ps-email-capture.js"></script>
+  </head>
+  <body>
+    <ps-email-capture
+      pid="ef687c61-7708-43ce-8019-6a584ff06f9f"
+      loc="gec-component-test-page"
+      label="We will collect your email for test"
+      placeholder="Please Provide Your Email"
+      btn-text="Submit Email"
+      btn-text-onsubmit="Submitting.."
+      sub-text="Free 7-day trial. No credit cards required"
+      submit-failed-msg="Sorry this failed"
+      submit-success-msg="Thank you for submitting your email"
+      color-validation="false"
+    ></ps-email-capture>
+  </body>
+</html>
